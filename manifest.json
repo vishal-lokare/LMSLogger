@@ -5,6 +5,6 @@
 
     "content_scripts": [{
             "matches": ["https://lms.iiitkottayam.ac.in/", "https://lms.iiitkottayam.ac.in/login/index.php", "https://lms.iiitkottayam.ac.in/login/index.php/#"],
-            "js": ["logger.js"]
+            "js": ["jquery.js","logger.js"]
         }]
 }
