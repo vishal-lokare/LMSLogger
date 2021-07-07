@@ -7,4 +7,4 @@ A simple browser extension that automatically logs you into the college's LMS we
 3. Go to 'Extensions' in your browser
 4. Click on 'Load Unpacked' mostly on top-left corner
 5. Select the folder in which you downloaded the files
-6. Done.
+6. Now, open the main LMS page or the login page
