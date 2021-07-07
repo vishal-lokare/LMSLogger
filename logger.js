@@ -5,7 +5,7 @@ $(document).ready(function () {
 	if( url == 'https://lms.iiitkottayam.ac.in/')
 		document.getElementsByClassName('btn-login')[0].click();
 
-	if(url == 'https://lms.iiitkottayam.ac.in/login/index.php') {
+	if(url == 'https://lms.iiitkottayam.ac.in/login/index.php' || url == 'https://lms.iiitkottayam.ac.in/login/index.php/#') {
 		//replace your ID below
 		document.getElementById('username').value = "replace_ID";
 		
