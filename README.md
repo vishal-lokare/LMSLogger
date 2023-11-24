@@ -10,6 +10,6 @@ A simple browser extension that automatically logs you into the college's LMS we
 6. Select the folder in which you downloaded the files
 7. Now, open the main LMS page or the login page
 
-----24/11/2023---
-Updated for newer LMS website 
-Co-author:Harsh Iyer 2023BCS0199
+----24/11/2023---<br>
+Updated for newer LMS website <br>
+Co-author:Harsh Iyer 2023BCS0199 
