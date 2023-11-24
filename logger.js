@@ -15,6 +15,10 @@ $(document).ready(function () {
 		
 		//replace your password below
 		document.getElementById('password').value = "replace_password";
+<<<<<<< HEAD
 		document.getElementsById('loginbtn').click();
+=======
+		document.getElementById('loginbtn').click();
+>>>>>>> 80401efd5080d4cc0699b63ed5346015edab1cf1
 	}
 })
