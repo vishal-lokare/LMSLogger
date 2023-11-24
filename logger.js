@@ -4,6 +4,12 @@ $(document).ready(function () {
 
 	if( url == 'https://lms.iiitkottayam.ac.in/')
 		document.getElementsByClassName('btn-login')[0].click();
+	if(url == 'https://lms.iiitkottayam.ac.in'){
+		document.getElementByClassName('btn btn-login-top')[0].click();
+		document.getElementById('username').value="ID_HERE"; //Enter your ID here
+		document.getElementById('password').value="PASS_HERE"; //Enter your password here
+		document.getElementByClass('btn btn-primary')[0].click();
+	}
 
 	if(url == 'https://lms.iiitkottayam.ac.in/login/index.php' || url == 'https://lms.iiitkottayam.ac.in/login/index.php/#') {
 		//replace your ID below
