@@ -15,6 +15,6 @@ $(document).ready(function () {
 		
 		//replace your password below
 		document.getElementById('password').value = "replace_password";
-		document.getElementsByClassName('btn btn-primary btn-block mt-3')[0].click();
+		document.getElementById('loginbtn')[0].click();
 	}
 })
