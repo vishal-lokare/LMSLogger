@@ -3,11 +3,11 @@ $(document).ready(function () {
 	console.log(url);
 
 	if( url == 'https://lms.iiitkottayam.ac.in/'){
-		document.getElementsByClassName('btn-login')[0].click();
-		document.getElementsByClassName('btn btn-login-top dropdown-toggle')[0].click();
+		document.getElementsByClassName('btn-login').click();
+		document.getElementsByClassName('btn btn-login-top dropdown-toggle').click();
 		document.getElementById('username').value="ID_HERE"; //Enter your ID here
 		document.getElementById('password').value="PASS_HERE"; //Enter your password here
-		document.getElementsByClassName('btn btn-primary')[0].click();}
+		document.getElementsByClassName('btn btn-primary').click();}
 
 	if(url == 'https://lms.iiitkottayam.ac.in/login/index.php' || url == 'https://lms.iiitkottayam.ac.in/login/index.php/#') {
 		//replace your ID below
@@ -15,6 +15,6 @@ $(document).ready(function () {
 		
 		//replace your password below
 		document.getElementById('password').value = "replace_password";
-		document.getElementById('loginbtn')[0].click();
+		document.getElementById('loginbtn').click();
 	}
 })
