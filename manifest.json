@@ -4,7 +4,7 @@
     "manifest_version": 3,
 
     "content_scripts": [{
-            "matches": ["https://lms.iiitkottayam.ac.in/" , "https://lms.iiitkottayam.ac.in/login/index.php", "https://lms.iiitkottayam.ac.in/login/index.php/#"],
+            "matches": ["https://lms.iiitkottayam.ac.in/" , "https://lms.iiitkottayam.ac.in/login/index.php", "https://lms.iiitkottayam.ac.in/login/index.php/#" ,"https://lmsug23.iiitkottayam.ac.in/login/index.php","https://lmsug23.iiitkottayam.ac.in/"],
             "js": ["jquery.js","logger.js"]
         }]
 }
