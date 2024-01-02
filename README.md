@@ -12,3 +12,6 @@ A simple browser extension that automatically logs you into the college's LMS we
 
 ----24/11/2023---<br>
 Updated for newer LMS website <br>
+<br><br>
+----02/01/2023---<br>
+Updated for new UG-2023 LMS website
